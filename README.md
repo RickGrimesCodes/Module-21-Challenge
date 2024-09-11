@@ -24,8 +24,10 @@ and renamed the types with a count below 500 to 'Other'. We did a similar thing 
 except those below 1000 were renamed to 'Other'. \
 &emsp;After that we split the data, 'one hot encoded' it,
 and ran it through two layer nodes being 100 and 30 respectively, then proceeded to train it on 200 epochs. The resulting accuracy
-was ~73%\
-(placeholder for relevant image)
+was ~73%.
+
+
+![image](https://github.com/user-attachments/assets/a74a72b2-efac-45e7-a1b2-b471655e274c)
 
 ### Second Model (optimized model)
 &emsp;Similar to the first model, but instead we removed other data the may have clouded the training.
@@ -34,11 +36,15 @@ We also re-named rows with a name occuring less than five times to 'Other'.\
 &emsp;We've also added a third layer (not including the output layer) and upped the node counts for
 the first and second layer. These being 100, 30 and 10 respectively. Trained at 100 epochs\
 &emsp;All of this made the resulting model ~6% more accurate. With the optimized model being 79%
-more efficient.
+more efficient.\
+![image](https://github.com/user-attachments/assets/3e3b485f-908d-4355-9c59-62b2c20248a1)
+
 
 ### Other Solutions?
 &emsp;While another solution such as Random Forest Classifier might seem a probable,
 it is predicted to be less accurate than Standard Scaler. With predicted accuracy being around ~77%
+\
+![image](https://github.com/user-attachments/assets/51e9fad7-cbf3-43f6-a26c-4078468ea1d4)
 
 ### To summarize
 &emsp; To summarize, we've seen that Standard Scaler is probably the best solution for this dataset
