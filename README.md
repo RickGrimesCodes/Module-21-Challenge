@@ -1,4 +1,4 @@
-# Module 19 Supervised Machie Learning Challenge for UNCC Data Analytics Bootcamp
+# Module 21 Deep Learning Challenge for UNCC Data Analytics Bootcamp
 This project was a great introduction to deep learning! It was cool to get a hang of what different
 neural networks can do
 
