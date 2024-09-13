@@ -42,8 +42,12 @@ more efficient.\
 
 ### Other Solutions?
 &emsp;While another solution such as Random Forest Classifier might seem a probable,
-it is predicted to be less accurate than Standard Scaler. With predicted accuracy being around ~77%
+it is predicted to be less accurate than Keras Sequential. With predicted accuracy being around ~77%
 \
+However we could scale up the neural layers 3, and there could be a high probable chance it would outperform the second model.\
+Random forest models work great for more scattered data aswell.\
+Finally, random forest models can be scaled up, and aren't as prone to overfitting.\ For a noisy dataset like this, it could work great
+even if the dataset was never optimized!\
 ![image](https://github.com/user-attachments/assets/51e9fad7-cbf3-43f6-a26c-4078468ea1d4)
 
 ### To summarize
